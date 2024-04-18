@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .square{
+            width: 425px;
+            height: 200px;
+            border: 2px solid black;
+            position: relative;
+        }
+.ball1{
+
+
+    position: absolute;
+    top: 75px;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    animation-name: ball;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+  .ball2{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 75px;
+    animation-name: ball2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+
+  }
+
+
+  .ball3{
+    
+
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 75px;
+    left: 150px;
+    animation-name: ball;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+.ball4{
+    
+height: 50px;
+width: 50px;
+background-color: black;
+border-radius: 50%;
+position: absolute;
+top: 75px;
+left: 225px;
+animation-name: ball2;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+
+
+
+}
+
+.ball5{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 75px;
+    left: 300px;
+    animation-name: ball;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+.ball6{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+position: absolute;
+top: 75px;
+left: 375px;
+animation-name: ball2;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+
+}
+
+
+@keyframes ball {
+    0%{
+        background-color: grey;
+        top: 75px;
+    }
+    50%{
+        background-color: salmon;
+    top: 0px;
+    }
+    100%{
+        background-color: silver;
+    top: 75px;
+    }
+}
+
+
+    @keyframes ball2 {
+    0%{
+        background-color: grey;
+        top: 75px;
+    }
+    50%{
+        background-color: salmon;
+    top: 150px;
+    }
+    100%{
+        background-color: salmon;
+    top: 75px;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+   <div class="square"><div class="ball1"></div>
+    <div class="ball2"></div>
+    <div class="ball3"></div>
+    <div class="ball4"></div>
+    <div class="ball5"></div>
+    <div class="ball6"></div>
+   </div>
+</body>
+</html>
